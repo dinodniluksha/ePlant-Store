@@ -1,0 +1,27 @@
+{
+  "name": "eplant-store",
+  "version": "1.0.0",
+  "description": "Web application for online plant business",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:watch": "./node_modules/.bin/webpack --watch",
+    "serve": "./node_modules/.bin/webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinodniluksha/ePlant-Store.git"
+  },
+  "author": "Dinod Niluksha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinodniluksha/ePlant-Store/issues"
+  },
+  "homepage": "https://github.com/dinodniluksha/ePlant-Store#readme"
+}
