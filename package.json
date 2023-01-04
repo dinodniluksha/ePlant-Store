@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Web application for online plant business",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "firebase": "^9.15.0"
+  },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
