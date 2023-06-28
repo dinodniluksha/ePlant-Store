@@ -553,6 +553,18 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 317px) {
+  .container {
+    max-width: 317px;
+  }
+}
+
+@media (min-width: 470px) {
+  .container {
+    max-width: 465px;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
